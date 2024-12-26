@@ -85,9 +85,9 @@
 
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans         &trans          &trans            &trans  &trans  &trans
-&trans      &kp INS       &kp HOME      &kp UP        &kp END       &trans                          &kp PG_UP      &trans          &none             &trans  &none   &trans
-&trans      &kp LALT      &kp LEFT      &kp DOWN      &kp RIGHT     &none                           &kp PG_DN      &kp LEFT_SHIFT  &kp LEFT_CONTROL  &none   &none   &none
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans         &trans          &trans            &trans  &trans  &trans
+&trans      &none         &kp HOME      &kp UP        &kp END       &trans                          &kp PG_UP      &trans          &none             &trans  &none   &trans
+&trans      &kp K_UNDO    &kp LEFT      &kp DOWN      &kp RIGHT     &kp K_REDO                      &kp PG_DN      &kp LEFT_SHIFT  &kp LEFT_CONTROL  &none   &none   &none
+&trans      &none         &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans         &trans          &trans            &trans  &trans  &trans
                           &kp LEFT_WIN  &kp LEFT_ALT  &kp ESCAPE    &kp DELETE    &none     &to 2   &kp BACKSPACE  &none           &trans            &trans
             >;
 
