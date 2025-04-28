@@ -84,7 +84,7 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &kp F6     &kp F7          &kp F8            &kp F9  &kp F10  &kp F11
+&kp ESCAPE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &kp F6     &kp F7          &kp F8            &kp F9  &kp F10  &kp F11
 &trans      &none         &kp HOME      &kp UP        &kp END       &trans                                      &kp PG_UP  &trans          &none             &trans  &none    &kp F12
 &trans      &kp LC(Y)     &kp LEFT      &kp DOWN      &kp RIGHT     &kp LC(Z)                                   &kp PG_DN  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &none   &none    &none
 &trans      &none         &kp K_CUT     &kp LC(C)     &kp LC(V)     &trans        &trans         &trans         &trans     &trans          &trans            &trans  &trans   &trans
